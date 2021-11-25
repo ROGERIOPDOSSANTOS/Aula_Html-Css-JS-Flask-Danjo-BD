@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR - START */
+
+body nav{
+    height: 66px;
+    background-color: orangered;
+}
+
+body nav .container{
+    width: 1080px;
+    margin: auto;
+}
+
+/* NAVBAR - END */
+
+/* MAIN - START */
+
+body main .container{
+    width: 1080px;
+}
+
+body main .container .container-33{
+    width: 320px;
+    margin: 0px 10px;
+}
+
+/* SERVIÇOS - START */
+
+body main .container #servicos p{
+    width: 480px;
+    margin-left: 25px;
+    min-height: 156px;
+    padding: 15px 15px;
+    display: inline-block;
+}
+
+/* SERVIÇOS - END */
+
+/* CLIENTES - START */
+
+/* TICKER-TAPE START */
+
+body main #clientes .ticker-tape{
+    width: 1080px;
+}
+
+/* TICKER-TAPE END */
+
+/* CLIENTES - END */
+
+/* MAIN - END */
+
+/* FOOTER - START */
+
+body footer .container{
+    width: 1080px;
+    margin: auto;
+}
+
+body footer .container .container-column{
+    width: 216px;
+}
+
+/* FOOTER - END */

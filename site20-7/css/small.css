@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* NAVBAR - START */
+
+body nav{
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 66px;
+    background-color: orangered;
+}
+
+body nav .container{
+    width: 100vw;
+}
+
+body nav .container #nav-logo{
+    margin-left: 20px;
+    line-height: 66px;
+    height: 66px;
+    width: 197px;
+    display: inline-block;
+    background-image: url("../img/nav/logotipo-animation/frame-1.png");
+}
+
+body nav .container #nav-logo:hover{
+    animation-name: nav-logo-animation;
+    animation-duration: 0.5s;
+}
+
+@keyframes nav-logo-animation{
+    6.25%{background-image: url(../img/nav/logotipo-animation/frame-1.png);}
+    12.50%{background-image: url(../img/nav/logotipo-animation/frame-2.png);}
+    18.75%{background-image: url(../img/nav/logotipo-animation/frame-3.png);}
+    25%{background-image: url(../img/nav/logotipo-animation/frame-4.png);}
+    31.25%{background-image: url(../img/nav/logotipo-animation/frame-5.png);}
+    37.50%{background-image: url(../img/nav/logotipo-animation/frame-6.png);}
+    43.75%{background-image: url(../img/nav/logotipo-animation/frame-7.png);}
+    50%{background-image: url(../img/nav/logotipo-animation/frame-8.png);}
+    56.25%{background-image: url(../img/nav/logotipo-animation/frame-9.png);}
+    62.5%{background-image: url(../img/nav/logotipo-animation/frame-10.png);}
+    68.75%{background-image: url(../img/nav/logotipo-animation/frame-11.png);}
+    75%{background-image: url(../img/nav/logotipo-animation/frame-12.png);}
+    81.25%{background-image: url(../img/nav/logotipo-animation/frame-13.png);}
+    87.5%{background-image: url(../img/nav/logotipo-animation/frame-14.png);}
+    93.75%{background-image: url(../img/nav/logotipo-animation/frame-15.png);}
+    100%{background-image: url(../img/nav/logotipo-animation/frame-16.png);}
+}
+
+body nav .container input{
+    display: none;
+}
+
+body nav .container label{
+    font-size: 36px;
+    color: white;
+}
+
+body nav .container #nav-show-button{
+    font-size: 36px;
+    float: right;
+    line-height: 66px;
+    margin-right: 20px;
+}
+
+body nav .container a{
+    text-decoration: none;
+    color: white;
+    font-size: 36px
+}
+
+body nav .container ul{
+    display: none;
+    text-align: center;
+}
+
+body nav .container ul li{
+    line-height: 66px;
+    background-color: orangered;
+}
+
+body nav .container #nav-show:checked ~ ul{
+    display: block;
+}
+
+body nav .container ul li #whoweare-show:checked ~ ul{
+    display: block;
+}
+
+body nav .container ul li #services-show:checked ~ ul{
+    display: block;
+}
+
+body nav .container ul li #contact-show:checked ~ ul{
+    display: block;
+}
+
+/* NAVBAR - END */
+
+/* HEADER - START */
+
+/* SLIDER - START */
+
+body header .slider{
+    width: 100vw;
+    height: 720px;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+body header .slider #slider-background-image{
+    width: 100vw;
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+body header .slider .slide-button{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+body header .slider #slide-prev-button{
+    background-image: url("../img/header/slider/button-left.png");
+    top: 386px;
+    left: 30px;
+}
+
+body header .slider #slide-next-button{
+    top: 386px;
+    right: 30px;
+    background-image: url("../img/header/slider/button-right.png");
+}
+
+/* SLIDER - END */
+
+/* HEADER - END */
+
+/* MAIN - START */
+
+body main .container{
+    width: 80vw;
+    margin: auto;
+}
+
+body main .container .space{
+    height: 100px;
+}
+
+body main .container grid a{
+    font-size: 18px;
+    color: cornflowerblue;
+}
+
+body main .container grid a:hover{
+    color: #f27521;
+    transition: 0.5s;
+}
+
+body main .container grid p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+body main .container grid img{
+    margin: 20px 20px;
+}
+
+body main .container ul li{
+    margin-left: 26px;
+    list-style-image: url("../img/main/list-style.png");
+    font-size: 18px;
+}
+
+body main .container strong{
+    font-size: 36px;
+    color: #f27521;
+}
+
+body main .container .title-2{
+    font-size: 20px;
+    color: rgba(0,0,0,0.9);
+}
+
+body main .container .black{
+    font-size: 18px;
+    color: rgba(0,0,0,0.9);
+}
+
+body main .container .container-33{
+    display: inline-block;
+    width: 23vw;
+    margin: 1vw;
+    padding: 5px 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* DIFERENCIAL - START */
+
+body main .container #diferencial .container-33:hover{
+    background-color: rgba(242,117,33,0.5);
+    transition: 0.5s;
+}
+
+body main .container #diferencial ul li{
+    list-style-position: inside;
+    margin-left: -26px;
+}
+
+/* DIFERENCIAL - START */
+
+/* SERVIÇOS - START */
+
+body main .container #servicos p{
+    width: 60vw;
+    margin: auto;
+    min-height: 156px;
+    padding: 15px 15px;
+    vertical-align: top;
+}
+
+body main .container #servicos p:hover{
+    background-color: rgba(242,117,33,1);
+    transition: 0.5s;
+}
+
+/* SERVIÇOS - END */
+
+/* CLIENTES - START */
+
+/* TICKER-TAPE START */
+
+body main #clientes .ticker-tape{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 80vw;
+    height: 100px;
+    overflow: hidden;
+    border-left: 20px solid orangered;
+    border-right: 20px solid orangered;
+    border-radius: 20px;
+    margin: auto;
+}
+
+body main #clientes .ticker-tape ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 300%;
+    list-style: none;
+    animation: ticker-tape 25s linear infinite;
+    transform: translateX(100%);
+}
+
+body main #clientes .ticker-tape ul:hover{
+    animation-play-state: paused;
+}
+
+body main #clientes .ticker-tape ul li{
+    display: inline-flex;
+}
+
+@keyframes ticker-tape{
+
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+
+}
+
+/* TICKER-TAPE END */
+
+/* CLIENTES - END */
+
+/* MAIN - END */
+
+/* FOOTER - START */
+
+body footer{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+}
+
+body footer .container{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+body footer .container .container-column{
+    display: inline-block;
+    width: 20vw;
+    margin: 2vw;
+    vertical-align: top;
+}
+
+body footer .container a{
+    color: black;
+    transition: 0.5s;
+}
+
+body footer .container a:hover{
+    color: white;
+}
+
+/* FOOTER - END */

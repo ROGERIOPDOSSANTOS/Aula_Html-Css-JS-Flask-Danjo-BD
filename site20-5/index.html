@@ -1,0 +1,204 @@
+<?php
+    
+    require_once './class/recaptchalib.php';
+    require_once './class/master.php';
+
+    $mm = new Master;
+
+    $dbname = "u323639207_godoycustom";
+    $host = "sql220.main-hosting.eu";
+    $name = "u323639207_godoycustom";
+    $password = "Godoy123";
+
+    $mm->connect($dbname, $host, $name, $password);
+
+?>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Godoy Custom</title>
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="styles/small.css?v1.1">
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 980px)" href="styles/medium.css?v1.1">
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="styles/large.css?v1.1">
+        <link rel="shortcut icon" href="img/favicon.ico" />
+
+        <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR"></script>
+    </head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189749637-1">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-189749637-1');
+    </script>
+    <body>
+        <a href="#start" id="arrow-up"><img src="img/arrow-up.png"></a>
+        <nav>
+            <ul align="middle">
+                <li><a href="#start">Início</a></li>
+                <li><a href="#portfolio-1">Portfólio</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="header-background">
+            <header id="start">
+                <img id="header-logo" src="img/header/header-logo.png">
+                <p>Criação de websites, identidade visual, logotipo, banners e arte gráfica em geral.</p>
+                <figure align="middle">
+                    <a href="#portfolio-1"><img src="img/header/arrow.png"></a>
+                </figure>
+            </header>
+            <a id="portfolio-1"></a>
+        </div>
+        <div class="space"></div>
+        <div id="width-container">
+            <grid id="portfolio">
+                <h1>Portfólio</h1>
+
+                <a href="case-1.html">
+                    <box>
+                        <img src="img/portfolio/case-1.gif"/>
+                        <p>Iguaçu Desenvolvimento</p>
+                        <text>Website | Apresentação</text>
+                    </box>
+                </a>
+
+                <a href="case-2.html">
+                    <box>
+                        <img src="img/portfolio/case-2.png"/>
+                        <p>Asset Waves</p>
+                        <text>Identidade Visual</text>
+                    </box>
+                </a>
+
+                <a href="case-3.html">
+                    <box>
+                        <img src="img/portfolio/case-3.png"/>
+                        <p>Agenda Virtual</p>
+                        <text>Identidade Visual</text>
+                    </box>
+                </a>
+
+                <a href="case-4.html">
+                    <box>
+                        <img src="img/portfolio/case-4.png"/>
+                        <p>Vertycal</p>
+                        <text>Identidade Visual</text>
+                    </box>
+                </a>
+
+                <a href="case-5.html">
+                    <box>
+                        <img src="img/portfolio/case-5.png"/>
+                        <p>Faucon</p>
+                        <text>Identidade Visual</text>
+                    </box>
+                </a>
+
+                <a href="case-6.html">
+                    <box>
+                        <img src="img/portfolio/case-6.png"/>
+                        <p>Cabo Torcido</p>
+                        <text>Identidade Visual</text>
+                    </box>
+                </a>
+                
+            </grid>
+
+            <div class="space"></div>
+
+            <grid id="sobre-mim">
+                <p>
+                    <img align="right" src="img/sobre-mim/pietrogodoy.jpg">
+                    <strong>Sobre mim</strong>
+                    <text>
+                        <br><br><br>
+                        Sou Pietro Godoy, um jovem de 18 anos residente no sudoeste do Paraná, apaixonado desde criança por desenhos, pinturas, histórias, produções, vídeos e design gráfico em geral.
+                        <br><br>Tudo começou como uma brincadeira, onde eu fazia minhas primeiras produções gráficas dos jogos que jogava em programas gratuitos como PhotoScape. Com o tempo fui melhorando e me profissionalizando, até isso virar um trabalho.
+                        <br><br>Hoje lhe ofereço o melhor de meu serviço, abrangendo as áreas de artes gráficas, produções audio-visuais (vídeos, clipes, etc), desenhos computadorizados, identidade visual e programação de websites.
+
+                    </text>
+                </p>
+            </grid>
+
+            <div class="space"></div>
+
+            <grid id="contato">
+                <h1>Contato</h1>
+                <p>
+                    <br>
+                    Você pode entrar em contato conosco pelos seguintes meios:
+                    <br><br><a target="_blank" href="https://facebook.com/godoycustom"><img src="img/contato/facebook-20px.png"/></a>/godoycustom
+                    <br><br><a target="_blank" href="https://instagram.com/godoycustom"><img src="img/contato/instagram-20px.png"/></a>@godoycustom
+                    <br><br><img src="img/contato/mail-20px.png"/>contato@godoycustom.com
+                    <br><br><img src="img/contato/phone-20px.png"/><a target="_blank" href="https://wa.me/+5546933008953"><img src="img/contato/whatsapp-20px.png"/></a>+55 (46) 93300-8953
+                    <br><br>Ou nos envie um formulário para contato:
+                </p>
+                <div class="form-container">
+                    <form method="POST">
+                            <br><input name="username" maxlength="32" placeholder="Nome" type="text">
+                            <br><input name="email" maxlength="255" placeholder="Email"type="email">
+                            <br><input name="phone" maxlength="15" placeholder="Telefone" type="phone">
+                            <br><textarea name="desc" maxlength="3200" rows="8" cols="56" placeholder="Escreva sua mensagem aqui."></textarea>
+                            <br><input placeholder="Enviar" type="submit">
+                            <div class="g-recaptcha" data-sitekey="6LfH2vcZAAAAACxjDA31tV8ayRfWumQYa-915WEp"></div>
+                    </form>
+                    <?php
+                    
+                        $secret = "6LfH2vcZAAAAAG7uPbQlzFV7MwGEKrQRPfiSVfAO";
+
+                        $response = null;
+                        $recaptcha = new ReCaptcha($secret);
+
+                        if(isset($_POST['g-recaptcha-response'])){
+                            $response = $recaptcha->verifyResponse($_SERVER['REMOTE_ADDR'], $_POST['g-recaptcha-response']);
+                        }
+
+                        if(isset($_POST['email'])){
+
+                            $messageName = addslashes($_POST['username']);
+                            $messageEmail = addslashes($_POST['email']);
+                            $messagePhone = addslashes($_POST['phone']);
+                            $messageDesc = addslashes($_POST['desc']);
+
+                            if($response != null && $response->success){
+
+                                if(!empty($messageName) && ($messageEmail) && ($messagePhone) && ($messageDesc)){
+
+                                    if($mm->sendMessage($messageName, $messageEmail, $messagePhone, $messageDesc)){
+                                        echo "<br><br><a>Mensagem enviada com sucesso!</a><br>";
+                                    }
+                                    else{
+                                        "<br><br><a>Houve algum erro, tente novamente mais tarde.</a><br>";
+                                    }
+    
+                                }
+                                else{
+                                    echo "<br><br><a>Algum dos campos está vazio, por favor preencha.</a><br>";
+                                }
+
+                            }
+                            else{
+
+                                echo "<br><br><a>Preencha a verificação.</a><br>";
+
+                            }
+
+                        }
+
+                    ?>
+                </div>
+                <br>
+            </grid>
+
+            <div class="space"></div>
+        </div>
+        <footer>
+            <p>PIETRO GODOY | pietrogodoy.capanema@gmail.com</p>
+        </footer>
+    </body>
+</html>

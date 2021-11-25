@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #373737;
+}
+
+body #arrow-up{
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
+
+    cursor: pointer;
+}
+
+/* BODY | POST | WIDTH-CONTAINER | START */
+
+body #width-container{
+    width: 1600px;
+    margin: auto;
+}
+
+body #width-container h1{
+    text-align: center;
+    margin-left: -30px;
+}
+
+body #width-container .space{
+    height: 144px;
+    background-color: rgba(0,0,0,0);
+}
+
+body #width-container grid box{
+    display: inline-block;
+    overflow: hidden;
+    width: 360px;
+    height: 360px;
+    margin-left: 120px;
+    margin-top: 20px;
+
+    background-color: white;
+}
+
+/* BODY | POST | WIDTH-CONTAINER | END */
+
+/* NAVBAR | START */
+
+body nav{
+    width: 100vw;
+    height: 60px;
+    background-color: rgba(0,0,0,0.35);
+}
+
+body nav ul{
+    text-decoration: none;
+}
+
+body nav ul li{
+    display: inline-block;
+    width: 200px;
+    padding-top: 18px;
+
+    transition: 0.2s;
+
+    font-size: 22px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+body nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body nav ul li:hover{
+    border-top: 3px solid whitesmoke;
+}
+
+/* NAVBAR | END */
+
+/* HEADER | START */
+
+body #header-background{
+    width: 100vw;
+    height: auto;
+
+    background-image: url(../img/website-background.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+body header{
+    width: 1200px;
+    min-height: 90vh;
+    margin: auto;
+    padding-top: 240px;
+
+    background-color: rgba(0,0,0,0);
+}
+
+body header #header-logo{
+    width: 1202px;
+    height: 268px;
+}
+
+body header p{
+    padding-top: 20px;
+
+    font-size: 56px;
+    font-weight: 700;
+    color: #373737;
+}
+
+body header figure{
+    overflow: hidden;
+    margin-top: 100px;
+    opacity: 0.9;
+}
+
+/* HEADER | END */
+
+/* FOOTER | START */
+
+body footer{
+    padding: 25px 25px 25px 25px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+body footer p{
+    font-size: 24px;
+    text-align: center;
+}
+
+/* FOOTER | END */
+
+/* PORTFOLIO | START */
+
+body #portfolio box p{
+    margin-top: -30px;
+    margin-left: 8px;
+
+    transition: 0.2s;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-shadow: #373737 1px 1px 1px;
+}
+
+body #portfolio box:hover p{
+    margin-top: -58px;
+}
+
+body #portfolio box text{
+    margin-left: 8px;
+
+    color: white;
+    font-size: 24px;
+    text-shadow: #373737 1px 1px 1px;
+}
+
+/* PORTFOLIO | END */
+
+/* SOBRE MIM | START */
+
+body #sobre-mim p{
+    width: 1200px;
+    margin: auto;
+    font-size: 20px;
+}
+
+body #sobre-mim p strong{
+    font-size: 36px;
+}
+
+body #sobre-mim p text{
+    padding: 25px 25px 25px 25px;
+    font-weight: 500;
+}
+
+/* SOBRE MIM | END */
+
+/* CONTATO | START */
+
+body #contato{
+    width: 1200px;
+}
+
+body #contato p{
+    width: 1200px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+body #contato h1{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+body #contato form input::placeholder{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+body #contato img{
+    margin: 0px 5px 0px 5px;
+}
+
+body #contato input{
+    margin: 12px;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+}
+
+body #contato input[type="text"]{
+    width: 560px;
+    height: 38px;
+    background-color: rgba(0,0,0,0.55);
+}
+
+body #contato textarea{
+    padding: 16px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0,0,0,0.55);
+}
+
+body #contato textarea::placeholder{
+    color: white;
+}
+
+body #contato input[type="submit"]{
+    width: 560px;
+    background-color: rgba(0,0,0,0.55);
+}
+
+/* CONTATO | END */
+
+/*#####################################*/
+/*############### CASE ################*/
+/*#####################################*/
+
+/*CASE-1*/
+
+body #width-container .case-1{
+    width: 800px;
+    margin: auto;
+}
+
+/*CASE-2*/
+
+body #width-container .case-2{
+    width: 60vw;
+}
+
+/*CASE-3*/
+
+body #width-container .case-3{
+    width: 60vw;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR - START */
+
+body nav{
+    height: 66px;
+    background-color: orangered;
+}
+
+body nav .container{
+    width: 980px;
+    margin: auto;
+}
+
+body nav .container a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px
+}
+
+body nav .container a:hover{
+    text-decoration: underline;
+}
+
+body nav .container input{
+    display: none;
+}
+
+body nav .container label{
+    display: none;
+}
+
+body nav .container ul{
+    display: inline-block;
+    float: right;
+}
+
+body nav .container ul li{
+    display: inline-block;
+    line-height: 66px;
+    background-color: orangered;
+    text-align: left;
+    width: 160px;
+    text-align: center;
+}
+
+body nav .container ul ul{
+    position: absolute;
+    top: 0px;
+    display: block;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+body nav .container ul li:hover > ul{
+    top: 66px;
+    opacity: 1;
+}
+
+body nav .container ul ul li{
+    display: block;
+    width: 160px;
+    margin: 0px;
+    float: none;
+    display: list-item;
+    list-style: none;
+}
+
+/* NAVBAR - END */
+
+/* MAIN - START */
+
+body main .container{
+    width: 800px;
+}
+
+body main .container .container-33{
+    width: 250px;
+    margin: auto;
+}
+
+/* SERVIÇOS - START */
+
+body main .container #servicos p{
+    width: 340px;
+    margin-left: 25px;
+    min-height: 156px;
+    padding: 15px 15px;
+    display: inline-block;
+}
+
+/* SERVIÇOS - END */
+
+/* CLIENTES - START */
+
+/* TICKER-TAPE START */
+
+body main #clientes .ticker-tape{
+    width: 800px;
+}
+
+/* TICKER-TAPE END */
+
+/* CLIENTES - END */
+
+/* MAIN - END */
+
+/* FOOTER - START */
+
+body footer .container{
+    width: 980px;
+    margin: auto;
+}
+
+body footer .container .container-column{
+    width: 196px;
+}
+
+/* FOOTER - END */
