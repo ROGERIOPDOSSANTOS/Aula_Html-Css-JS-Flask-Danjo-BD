@@ -1,0 +1,294 @@
+body {
+    background-image: url("https://www.unicamp.br/unicamp/sites/default/files/inline-images/Matem%C3%A1tica2.jpeg");
+    margin:0 auto;
+    margin-top:-16.5px;
+    width: 1903px;
+    height: 100%;
+}
+.backgroundtotal{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+/** Aqui está o fundo ^^   */
+/** ______________________________ */
+/** Menu Principal à BAIXO */
+.menu-principal {
+    width: 100%;
+    background-color: rgba(105, 105, 105, 0.856);
+    height: 143px;
+    border-bottom:5px solid rgba(0, 0, 0, 0.575);
+    margin-bottom: -16px;
+}
+main {
+    margin: 0 auto;
+    width: 1100px;
+    position: relative;    
+}
+.logo img{
+    width: 230px;
+}
+.logo{
+    float:left;
+    padding-left: 20px;
+    padding-top: 18px;
+    width: 79%;
+}
+#SetaDeVoltar{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+/** Finalzia Menu Principal */
+/** ______________________________ */
+/** Redes sociais à BAIXO */
+.redes_sociais ul li{
+    padding-top: 5px;
+    margin: left 50px;
+    margin-right: 15px;
+    width: 6%;
+    display: inline block;
+    float: right;
+    list-style:none;
+} 
+.redes_sociais img{
+    width: 100%;
+    float:right;
+}
+/** Finaliza Redes Sociais */
+/** ______________________________ */
+/** Equações */
+.ConteudoEquacao1{
+    width: 45%;
+    background-color: rgba(105, 105, 105, 0.856);
+    height: 256px;
+    color:#DCDCDC;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display:inline-block;
+    text-transform:uppercase;
+    font-family: fantasy;
+    font-size: 24px;
+}
+.ConteudoEquacao2{
+    width: 45%;
+    background-color: rgba(105, 105, 105, 0.856);
+    height: 256px;
+    color:#DCDCDC;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 46px;
+    margin-top: 20px;
+    display:inline-block;
+    text-transform:uppercase;
+    font-family: fantasy;
+    font-size: 24px;
+}
+.ParteBrancaDaEquacao1{
+    width: 473px;
+    background-color: #DCDCDC;
+    height: 200px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: -57px;
+    border-radius: 5px;
+    display:inline-block;
+    position: absolute;
+}
+.ParteBrancaDaEquacao1:hover{
+    background-color: #ffffff;
+}
+.ParteBrancaDaEquacao2{
+    width: 473px;
+    background-color: #DCDCDC;
+    height: 200px;
+    padding: 15px;
+    margin-left: -155px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display:inline-block;
+    position: absolute;
+}
+.ParteBrancaDaEquacao2:hover{
+    background-color: #ffffff;
+}
+.ParteBrancaDaEquacao3{
+    width: 473px;
+    background-color: #DCDCDC;
+    height: 200px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: -53.5px;
+    border-radius: 5px;
+    display:inline-block;
+    position: absolute;
+}
+.ParteBrancaDaEquacao3:hover{
+    background-color: #ffffff;
+}
+.ParteBrancaDaEquacao4{
+    width: 473px;   
+    background-color: #DCDCDC;
+    height: 200px;
+    padding: 15px;
+    margin-left: -92.5px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display:inline-block;
+    position: absolute;
+}
+.ParteBrancaDaEquacao4:hover{
+    background-color: #ffffff;
+}
+.ParteBrancaDaEquacao5{
+    width: 473px;   
+    background-color: #DCDCDC;
+    height: 200px;
+    padding: 15px;
+    margin-left: -77px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display:inline-block;
+    position: absolute;
+}
+.ParteBrancaDaEquacao5:hover{
+    background-color: #ffffff;
+}
+.ParteBrancaDaEquacao6{
+    width: 473px;   
+    background-color: #DCDCDC;
+    height: 200px;
+    padding: 15px;
+    margin-left: -71px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display:inline-block;
+    position: absolute;
+}
+.ParteBrancaDaEquacao6:hover{
+    background-color: #ffffff;
+}
+.ParteBrancaDaEquacao7{
+    width: 473px;   
+    background-color: #DCDCDC;
+    height: 200px;
+    padding: 15px;
+    margin-left: -100px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display:inline-block;
+    position: absolute;
+}
+.ParteBrancaDaEquacao7:hover{
+    background-color: #ffffff;
+}
+.ParteBrancaDaEquacao8{
+    width: 473px;   
+    background-color: #DCDCDC;
+    height: 200px;
+    padding: 15px;
+    margin-left: -92.5px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display:inline-block;
+    position: absolute;
+}
+.ParteBrancaDaEquacao8:hover{
+    background-color: #ffffff;
+}
+.Botao{
+    background-color: rgba(255, 25, 0, 0.829);
+    margin-top: 185px;
+    float:right;
+    font-size: 15px;
+    color:#DCDCDC;
+    font-weight: bold;
+}
+/** Finaliza Equações */
+/** ______________________________ */
+/** Conteúdo */
+.HeaderDoConteudo{
+    height: 65px;
+    width: 100%;
+    margin-top: 22px;
+    background-color: rgba(105, 105, 105, 0.856);
+    float:left;
+    border-bottom:5px solid rgba(0, 0, 0, 0.575);
+}
+.HeaderDoConteudo a{
+    color:#DCDCDC;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 28px;
+    margin-top:19px;
+    display:flex;
+    justify-content: space-evenly;
+}
+/**Finaliza Conteúdo*/
+/** ______________________________ */
+/** BotaoDeJogar à BAIXO*/
+#BotaoDeJogar{
+    width: 100%;
+    height: 150px;
+    font-size: 40px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    text-shadow: black 3px 3px; 
+    color:white;
+    background-color: rgba(105, 105, 105, 0.856);
+    margin:auto;
+    margin-top: 20px;
+}
+#BotaoDeJogar:hover{
+    background-color: black;
+    border: 5px solid grey;
+}
+/** Finaliza BotaoDeJogar */
+/** ______________________________ */
+/** Rodape à BAIXO*/
+.HeaderDeBaixo{
+    width: 100%;
+    height: 143px;
+    background-color: rgba(105, 105, 105, 0.856);
+    border-top:5px solid rgba(0, 0, 0, 0.575);
+    margin-top: 20px;
+    border-bottom:5px solid rgba(0, 0, 0, 0.575);
+}
+/** Finaliza Rodape */
+/** ______________________________ */
+/** Sobre à BAIXO*/
+#Sobre{
+    color: #DCDCDC;
+    text-decoration: none;
+    text-align: left;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    position:absolute;
+    margin-left:201px;
+    margin-top: 53.5px;
+}
+#Sobre:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+#IFPR{
+    height: 134px;
+    float:right;
+    margin: 5px;
+    margin-right: 189px;
+}
+#IFPR:hover{
+    background-color: black;
+}
+#Develpoed{
+    color: #DCDCDC;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 495px;
+}
+/** Finaliza Sobre */
+/** ______________________________ */

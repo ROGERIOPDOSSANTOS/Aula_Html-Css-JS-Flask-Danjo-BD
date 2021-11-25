@@ -1,0 +1,172 @@
+html {
+    font-size: 62.5%; /* cada 1rem considerará 10px*/
+}
+body {
+    background-image: url("https://www.unicamp.br/unicamp/sites/default/files/inline-images/Matem%C3%A1tica2.jpeg"); /** UNICAMP */
+    margin:0px auto;
+    margin-top:-16.5px;
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+}
+.backgroundtotal{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+main {
+    margin: 0 auto;
+    width: 1100px;
+    position: relative;    
+}
+/** Aqui está o fundo ^^   */
+/** ______________________________ */
+/** Menu Principal à BAIXO */
+#PaginaInicial{
+    position: absolute;
+    margin-top:60px;
+    margin-left: 466.5px;
+    font-size: 2.8rem;
+    color:#DCDCDC;
+    font-family: fantasy;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#PaginaInicial:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+.menu-principal {
+    width: 100%;
+    background-color: rgba(105, 105, 105, 0.856);
+    height: 143px;
+    border-bottom:5px solid rgba(0, 0, 0, 0.575);
+    margin-bottom: -16px;
+}
+.logo img{
+    width: 230px;
+}
+.logo{
+    float:left;
+    padding-left: 20px;
+    padding-top: 18px;
+    width: 79%;
+}
+#SetaDeVoltar{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+/** Finaliza Menu Principal */
+/** ______________________________ */
+/** Redes sociais à BAIXO */
+.redes_sociais ul li{
+    padding-top: 5px;
+    margin: left 50px;
+    margin-right: 15px;
+    width: 6%;
+    display: inline block;
+    float: right;
+    list-style:none;
+} 
+.redes_sociais img{
+    width: 100%;
+    float:right;
+}
+/** Finaliza Redes Sociais */
+/** ______________________________ */
+/** Menu de Escolhas à BAIXO*/
+.EscolheGeometria{
+    background-color: rgba(105, 105, 105, 0.856);
+    width: 100%;
+    height: 65px;
+    border-bottom:5px solid rgba(0, 0, 0, 0.575);
+}
+.elementos {
+    display:flex;
+    width: 100%;
+    list-style: none;
+    padding-top: 18px;
+    justify-content:space-evenly;
+    text-indent: -126px;
+}
+.menu ul li a{
+    margin-left: 50px;
+    color: #DCDCDC;
+    text-decoration: none;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+.menu ul li a:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+/** 
+SE COLOCARMOS FICARÁ O MENU DE ESCOLHAS RETO 
+.col-100 {
+    width:100%;
+    float:left;
+    position: relative;
+}
+*/
+/** Finaliza Menu de Escolhas */
+/** ______________________________ */
+/** criação dos slider */
+.slider img{
+    display:flex;
+    width: 1px;
+    height: 562px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/** Finaliza criação dos sliders */
+/** ______________________________ */
+/** Rodape à BAIXO*/
+.HeaderDeBaixo{
+    width: 100%;
+    height: 143px;
+    background-color: rgba(105, 105, 105, 0.856);
+    border-top:5px solid rgba(0, 0, 0, 0.575);
+    border-bottom:5px solid rgba(0, 0, 0, 0.575);
+}
+/** Finaliza Rodape */
+/** ______________________________ */
+/** Sobre à BAIXO*/
+#Sobre{
+    color: #DCDCDC;
+    text-decoration: none;
+    text-align: left;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-family: fantasy;
+    position:absolute;
+    margin-left:201px;
+    margin-top: 53.5px;
+}
+#Sobre:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+#IFPR{
+    height: 134px;
+    float:right;
+    margin: 5px;
+    margin-right: 189px;
+}
+#IFPR:hover{
+    background-color: black;
+}
+#Develpoed{
+    color: #DCDCDC;
+    text-align: center;
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 495px;
+}
+/** Finaliza Sobre */
+/** ______________________________ */
+@media (max-width:2060px) and (max-height:1480px){
+
+}

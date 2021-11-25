@@ -1,0 +1,217 @@
+body {
+	font-family:  Nunito, sans-serif;
+	color: #1c1c1c;
+	margin:0px;
+}
+
+h1, h2, h3 {
+	font-family:  Asap, sans-serif;
+	color: black;
+}
+.botao {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #191970;
+	font-size: .9em;
+	border-radius: 3px;
+}
+
+/* Navegação */
+nav {
+	width: 100%;
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #191970;
+}
+nav a {
+	text-decoration: none;
+	color:  #FFFFFF;
+	font-size: 32px;
+	font-family: yellowtail, serif;
+	margin-left: 100px;
+}
+nav ul {
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+nav ul li {
+	text-align: center;
+	width: 100%;
+	margin-left: -420px;
+	
+}
+nav ul li a {
+	display: inline-block;
+	margin-top: 10px;
+	width: 100%;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+header {
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(../img/9.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: black;
+	font-size: 15px;
+	text-align: center;
+	padding: 20px;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header h1 {
+	color: black;
+}
+header p {
+	margin-bottom: 2em;
+}
+#sobre {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #191970;
+	color: #FFFFFF;
+}
+#sobre h2 {
+	color: #FFFFFF;
+}
+#sobre p {
+	margin-bottom: 2.5em;
+	max-width: auto;
+}
+#sobre .botao {
+	background-color: #f1f1f1;
+	color: #1c1c1c;
+}
+
+/* Conheça */
+
+#conheca {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+}
+#conheca div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#conheca img {
+	width: 100%;
+}
+
+/* Pagamentos */
+
+#pagamentos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+#pagamentos h2{
+	margin-bottom: 20px;
+}
+
+/* Contato */
+
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+#contato h2{
+	color: #000000;
+}
+
+/* Contato */
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #191970;
+	color: #FFFFFF;
+}
+footer a {
+	text-decoration: none;
+	color: #00FFFF;
+}
+
+@media screen and (min-width: 760px) {
+	/* nav */
+	nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	nav {
+		flex-direction: row;
+		width: 100%;
+	}
+	/* Cabeçalho */
+	header {
+		height: 600px;
+		height: 60vh;
+		justify-content: center;
+	}
+	/* sobre */
+	#sobre {
+		height: 250px;
+		height: 30vh;
+		justify-content: center;
+		min-width: 250px;
+	}
+	/* conheca */
+	#conheca {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin-bottom: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#conheca h2 {
+		text-align: center;
+		width: 100%;
+	}
+	#conheca div {
+		flex-wrap: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
+	/* foto -------------------------------------- */
+
+	/* contato */
+	#contato {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	#contato h2, #contato p {
+		width: 100%;
+	}
+	#contato div img {
+		width: 30px;
+	}
+}
