@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+table, th, td {
+	border: 1px solid black;
+  }
+
+
+
+
+  
 body {
 background: #F5F5DC;
 color: rgba(0, 0, 0, 1);
