@@ -2,7 +2,8 @@
 
 table, th, td {
 	border: 1px solid black;
-	color: blue;
+	text-align: center;
+	color: rgb(255, 0, 0);
 	background-color: blue;
   }
 
