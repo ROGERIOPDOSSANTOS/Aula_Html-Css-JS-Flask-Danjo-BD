@@ -1,45 +1,49 @@
 <!DOCTYPE html>
+
 <html lang="pt-br"> 
 	<head>
-
 		<meta charset="utf-8"/>	
 		<title> Curso de WEB </title> 
+
 		<link rel="stylesheet" href="css/estilo.css" />
-	 
+
+		<script language="javascript" src="javascript/aula.js"></script>
+		<script language="javascript" src="javascript/funcoes.js"> </script>
 	</head>
 
-<script language="javascript" src="javascript/aula.js"></script>
-<script language="javascript" src="javascript/funcoes.js"> </script>
-
+<!--INICIO DO DOCUMENTO-->
 <body>
 	
 <div id="demo">
 <button type="button" onclick="CalculaQuadrado()">Calcule QDO</button>
 </div>
 	
+	<!--INICIO DIV INTERFACE-->
     <div id="interface">
-
+       
+		<!--INICIO CABECALHO-->
 		<header id="cabecalho">
-		 	<hgroup>	
+			<hgroup>	
 		 		<h1> TECNOLOGIA & CÓDIGO </h1>
 		 		<h2> Criamos sua página WEB!</h2>
 		 	</hgroup>
 
+			<!--IMAGEM ICONE--> 
 			<img id="icone" src="imagem/html.jpg">
-
-        <nav id="menu">   
-
-			<h1> Menu Principal </h1> 
-			<ul type="disc">
-		 		<li><a href="index.html"> Home </a></li>
-			 	<li><a href="especs.html">Serviços</a></li>
-			 	<li><a href="fotos.html"> Currículo</a></li>
-				 <li><a href="multimidia.html"> Vídeos&Fotos</a></li>
-				<li><a href="fale-consco.html"> Contatos</a></li>
-	    	</ul>
-
-	    </nav>
-
+		
+			<!--INICIO MENU-->
+        	<nav id="menu">   
+				<h1> Menu Principal </h1> 
+				<ul type="disc">
+		 			<li><a href="index.html"> Home </a></li>
+			 		<li><a href="especs.html">Serviços</a></li>
+			 		<li><a href="fotos.html"> Currículo</a></li>
+					 <li><a href="multimidia.html"> Vídeos&Fotos</a></li>
+					<li><a href="fale-consco.html"> Contatos</a></li>
+	    		</ul>
+			<!--FIM MENU-->
+	    	</nav>
+        <!--FIM CABECALHO-->
 		</header>
 
 		<hgroup>
@@ -51,10 +55,11 @@
 
 		</hgroup>
 
+		<!--AJUSTANDO COM STYLE NO HTML H1 E P-->
 		<h1 style="text-align: center;"> O que é </h1>
 		<p style="text-align: justify;"> Desenvolvimento <b>web</b> é o termo utilizado para descrever o desenvolvimento de sites, na Internet ou numa intranet.O profissional que trabalha desenvolvendo websites pode ser um web designer (desenvolvedor do layout) ou um web developer <i>(desenvolvedor de sistemas)</i>. O desenvolvimento refere-se a um processo de construção e testes do software especifico para a web, com a finalidade de se obter um conjunto de programas, que satisfazem as funções pretendidas, quer em termos de usabilidade dos usuários ou compatibilidade com outros programas existentes. O desenvolvimento web pode variar desde simples páginas estáticas a aplicações ricas, comércios eletrônicos ou redes sociais.</p>
 
-
+        <!--FIGURA APÓS TEXTO-->
 		<figure class="foto-legenda">	
 		<img src="imagem/aulaweb.jpg">
 			<figcaption>
@@ -62,15 +67,16 @@
 			</figcaption>
 		</figure>
 
+        <!--AJUSTANDO COM STYLE NO HTML H1 E P-->
 		<h1>Considerações sobre segurança</h1>
 		<p style="text-align: justify; text-indent: 50px;" >O desenvolvimento web leva em consideração fatores como a verificação de erros na entrada de dados através formulários, assim como a filtragem e a normalização dos dados que são alimentados por esses meios. Falhas na segurança como o SQL injection devem ser testadas, e o uso de scripts pode ajudar a encontrar outras falhas de segurança mais técnicas. As peculiaridades de cada sistema dependem das tecnologias usadas, e muitas vezes não é função do desenvolvedor manter o nível de segurança, mas sim da plataforma, por exemplo o Apache Server, ou o php.<wbr>swipty.<wbr>org o spdropkit.org developer web futuro da web.
 		<a href="https://www.w3schools.com/" target="_black">Veja com mais detalhes visitando o site W3Schools.com!</a>
-
 		<a href="fotos.html"> Veja as Fotos</a>
 		</p>
 
 		<p> É importante contratar profissionais qualificados na hora de criar um site. Uma boa empresa de desenvolvimento de sites vai se atentar à todas as otimizações necessárias, inclusive, com técnicas CRO para terem alta taxas de conversão. No processo de construção de um site é preciso sempre respeitar as exigências de experiência com o usuário estabelecidas pelo Google, facilitando para que seu site seja encontrado nos buscadores.</p>
 
+		<!--INICIO TABELA-->
 		<table>
 			<tr>
 			  <th>Compania</th>
@@ -87,12 +93,12 @@
 			  <td>Francisco Change</td>
 			  <td>Mexico</td>
 			</tr>
+		  <!--FIM TABELA-->
 		  </table>
 
-
-
+	<!--FIM DA DIV INTERFACE-->
 	</div>
 
-	
+<!--FIM DO DOCUMENTO-->	
 </body>
 </html>
