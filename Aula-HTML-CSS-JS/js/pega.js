@@ -1,5 +1,6 @@
 <script>
-    function fazPegadinha() {
+
+function pegadinha() {
         alert("Olá");
         alert("amiga!");
         alert("Tá");
@@ -9,6 +10,5 @@
         alert("Clicando em");
         alert("Ok");
         alert("né?");
-    }
-</script>
 
+</script>
